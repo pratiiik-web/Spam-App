@@ -1,0 +1,56 @@
+{
+  "Naive Bayes": {
+    "Ham": {
+      "precision": 0.9698492462311558,
+      "recall": 0.9989648033126294,
+      "f1-score": 0.98419173890872,
+      "support": 966.0
+    },
+    "Spam": {
+      "precision": 0.9916666666666667,
+      "recall": 0.7986577181208053,
+      "f1-score": 0.8847583643122676,
+      "support": 149.0
+    },
+    "accuracy": 0.9721973094170404,
+    "macro avg": {
+      "precision": 0.9807579564489113,
+      "recall": 0.8988112607167174,
+      "f1-score": 0.9344750516104938,
+      "support": 1115.0
+    },
+    "weighted avg": {
+      "precision": 0.9727647580202958,
+      "recall": 0.9721973094170404,
+      "f1-score": 0.9709042296577143,
+      "support": 1115.0
+    }
+  },
+  "Logistic Regression": {
+    "Ham": {
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9787234042553191,
+      "support": 966.0
+    },
+    "Spam": {
+      "precision": 1.0,
+      "recall": 0.7181208053691275,
+      "f1-score": 0.8359375,
+      "support": 149.0
+    },
+    "accuracy": 0.9623318385650225,
+    "macro avg": {
+      "precision": 0.9791666666666667,
+      "recall": 0.8590604026845637,
+      "f1-score": 0.9073304521276595,
+      "support": 1115.0
+    },
+    "weighted avg": {
+      "precision": 0.9639013452914799,
+      "recall": 0.9623318385650225,
+      "f1-score": 0.9596425973189581,
+      "support": 1115.0
+    }
+  }
+}
